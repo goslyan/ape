@@ -1,0 +1,70 @@
+.main
+    background: url('../img/mainBG.png') no-repeat center / cover
+    padding-top: 460px
+    &__block
+        text-align: center
+        padding-bottom: 14px
+    &__title
+        font-size: 54px
+        line-height: 59px
+        color: $white
+        font-weight: 400
+        margin-top: 1px
+        margin-bottom: 18px
+    &__text
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        color: $liteGrey
+        max-width: 580px
+        width: 100%
+        margin: auto
+    &__secondBlock
+        display: flex
+        align-items: center
+        padding-bottom: 40px
+        
+        &--text
+            font-weight: 400
+            font-size: 12px
+            line-height: 12px
+            color: $white
+            margin-right: 50px
+            &:nth-child(3)
+                margin-right: 35px
+.icon1
+    position: relative
+    &::before
+        content: ''
+        position: absolute 
+        height: 16px
+        width: 16px
+        left: -45%
+        background: url('../img/main1.png') no-repeat center   
+.icon2
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        height: 16px
+        width: 16px
+        right: 125%  
+        background: url('../img/main2.png') no-repeat center   
+.icon3
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        height: 16px
+        width: 26px
+        right: 150%
+        background: url('../img/main3.png') no-repeat center  
+.icon4
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        height: 16px
+        width: 26px
+        right: 100%
+        background: url('../img/main4.png') no-repeat center   
